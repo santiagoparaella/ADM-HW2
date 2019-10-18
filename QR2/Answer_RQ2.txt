@@ -1,0 +1,65 @@
+Test 1
+
+chi2:  3.5060784626002013
+p:  0.17324660599852817
+dof:  2
+expeted:  
+ [[11.93181818  2.86363636  6.20454545]
+ [13.06818182  3.13636364  6.79545455]]
+We have two Hypotesis:
+Null Hypothesis: there isn't an home field advantage
+Alternate Hypothesis: there is an home field advantage
+Our p-value is :0.17324660599852817
+Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+Test 2
+
+chi2:  0.0
+p:  1.0
+dof:  2
+expeted:  
+ [[16.  2.  3.]
+ [16.  2.  3.]]
+We have two Hypotesis:
+Null Hypothesis: there isn't an home field advantage
+Alternate Hypothesis: there is an home field advantage
+Our p-value is :1.0
+Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+Test 3
+
+chi2:  4.645381328073637
+p:  0.09800951981727746
+dof:  2
+expeted:  
+ [[ 5.76  5.76 12.48]
+ [ 6.24  6.24 13.52]]
+We have two Hypotesis:
+Null Hypothesis: there isn't an home field advantage
+Alternate Hypothesis: there is an home field advantage
+Our p-value is :0.09800951981727746
+Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+Test 4
+
+chi2:  3.5060784626002013
+p:  0.17324660599852817
+dof:  2
+expeted:  
+ [[11.93181818  2.86363636  6.20454545]
+ [13.06818182  3.13636364  6.79545455]]
+We have two Hypotesis:
+Null Hypothesis: there isn't an home field advantage
+Alternate Hypothesis: there is an home field advantage
+Our p-value is :0.17324660599852817
+Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+Test 5
+
+chi2:  3.5060784626002013
+p:  0.17324660599852817
+dof:  2
+expeted:  
+ [[11.93181818  2.86363636  6.20454545]
+ [13.06818182  3.13636364  6.79545455]]
+We have two Hypotesis:
+Null Hypothesis: there isn't an home field advantage
+Alternate Hypothesis: there is an home field advantage
+Our p-value is :0.17324660599852817
+Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
