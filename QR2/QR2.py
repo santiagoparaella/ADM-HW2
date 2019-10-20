@@ -1,3 +1,5 @@
+#this file was written by Santo Palaia and shared with olthers group members
+
 import pandas as pd
 from scipy.stats import chi2_contingency
 import numpy as np
