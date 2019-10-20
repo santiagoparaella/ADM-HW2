@@ -1,3 +1,5 @@
+#this file was written by Santo Palaia and shared with olthers group members
+
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
