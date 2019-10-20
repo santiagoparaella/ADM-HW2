@@ -1,5 +1,8 @@
 Test 1
 
+Contingency Table
+ [[15  2  4]
+ [10  4  9]]
 chi2:  3.5060784626002013
 p:  0.17324660599852817
 dof:  2
@@ -11,8 +14,12 @@ Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
 Our p-value is :0.17324660599852817
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+
 Test 2
 
+Contingency Table
+ [[15  2  4]
+ [10  4  9]]
 chi2:  0.0
 p:  1.0
 dof:  2
@@ -24,8 +31,12 @@ Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
 Our p-value is :1.0
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+
 Test 3
 
+Contingency Table
+ [[16  2  3]
+ [16  2  3]]
 chi2:  4.645381328073637
 p:  0.09800951981727746
 dof:  2
@@ -37,8 +48,12 @@ Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
 Our p-value is :0.09800951981727746
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+
 Test 4
 
+Contingency Table
+ [[ 9  5 10]
+ [ 3  7 16]]
 chi2:  3.5060784626002013
 p:  0.17324660599852817
 dof:  2
@@ -50,8 +65,12 @@ Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
 Our p-value is :0.17324660599852817
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+
 Test 5
 
+Contingency Table
+ [[15  2  4]
+ [10  4  9]]
 chi2:  3.5060784626002013
 p:  0.17324660599852817
 dof:  2
@@ -63,3 +82,8 @@ Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
 Our p-value is :0.17324660599852817
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
+
+Concludions:
+
+we have too little data to carry out a meaningful analysis.
+We should also carry out further tests in addition to chi2 in order to better investigate the correlation between the two variables analysed
