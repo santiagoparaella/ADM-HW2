@@ -36,7 +36,7 @@ def get_team_contingecy_table(team): #return the dataframe that rapresent the co
     #away |       |        |
     #------------------------------
       
-    winHome= matchOfTeam.loc[(matchOfTeam['side']=='home') & (matchOfTeam['winner']==team)].shape[0]    
+    winHome= matchOfTeam.loc[(matchOfTeam['side']=='home') & (matchOfTeam['winner']==team)].shape[0]    #.shape[0] count the number of row
     winAway= matchOfTeam.loc[(matchOfTeam['side']=='away') & (matchOfTeam['winner']==team)].shape[0]
     drawHome= matchOfTeam.loc[(matchOfTeam['side']=='home') & (matchOfTeam['winner']==0)].shape[0]
     drawAway= matchOfTeam.loc[(matchOfTeam['side']=='away') & (matchOfTeam['winner']==0)].shape[0]
