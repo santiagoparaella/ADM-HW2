@@ -1,88 +1,47 @@
-Test 1
+Team 1
 
 Contingency Table
  [[15  2  4]
  [10  4  9]]
-chi2:  3.5060784626002013
-p:  0.17324660599852817
-dof:  2
-expeted:  
- [[11.93181818  2.86363636  6.20454545]
- [13.06818182  3.13636364  6.79545455]]
-We have two Hypotesis:
-Null Hypothesis: there isn't an home field advantage
-Alternate Hypothesis: there is an home field advantage
-Our p-value is :0.17324660599852817
-Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
 
-Test 2
-
-Contingency Table
- [[15  2  4]
- [10  4  9]]
-chi2:  0.0
-p:  1.0
-dof:  2
-expeted:  
- [[16.  2.  3.]
- [16.  2.  3.]]
-We have two Hypotesis:
-Null Hypothesis: there isn't an home field advantage
-Alternate Hypothesis: there is an home field advantage
-Our p-value is :1.0
-Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
-
-Test 3
+Team 2
 
 Contingency Table
  [[16  2  3]
  [16  2  3]]
-chi2:  4.645381328073637
-p:  0.09800951981727746
-dof:  2
-expeted:  
- [[ 5.76  5.76 12.48]
- [ 6.24  6.24 13.52]]
-We have two Hypotesis:
-Null Hypothesis: there isn't an home field advantage
-Alternate Hypothesis: there is an home field advantage
-Our p-value is :0.09800951981727746
-Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
 
-Test 4
+Team 3
 
 Contingency Table
  [[ 9  5 10]
  [ 3  7 16]]
-chi2:  3.5060784626002013
-p:  0.17324660599852817
-dof:  2
-expeted:  
- [[11.93181818  2.86363636  6.20454545]
- [13.06818182  3.13636364  6.79545455]]
-We have two Hypotesis:
-Null Hypothesis: there isn't an home field advantage
-Alternate Hypothesis: there is an home field advantage
-Our p-value is :0.17324660599852817
-Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
 
-Test 5
+Team 4
 
 Contingency Table
  [[15  2  4]
- [10  4  9]]
-chi2:  3.5060784626002013
-p:  0.17324660599852817
-dof:  2
-expeted:  
- [[11.93181818  2.86363636  6.20454545]
- [13.06818182  3.13636364  6.79545455]]
+ [ 4  4 15]]
+
+Team 5
+
+Contingency Table
+ [[11  4  8]
+ [10  3  9]]
+
+Unique contingecy table: 
+ [[ 74  59 289]
+ [ 56  76 331]]
+chi2 = 5.590773917511058
+ p = 0.06109122997186354
+ dof = 2
+ exp:
+[[ 61.98870056  64.37288136 295.63841808]
+ [ 68.01129944  70.62711864 324.36158192]]
 We have two Hypotesis:
 Null Hypothesis: there isn't an home field advantage
 Alternate Hypothesis: there is an home field advantage
-Our p-value is :0.17324660599852817
+Our p-value is :0.06109122997186354
 Because p-value is grader than alpha=0.05, We have to accept the Null Hypothesis: there isn't an home field advantage
-
 Concludions:
 
 we have too little data to carry out a meaningful analysis.
