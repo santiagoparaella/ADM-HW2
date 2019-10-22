@@ -49,9 +49,9 @@ __General Setup__: *All the analysis requested from RQ1 to RQ5, must be performe
    
 
 
-2. [__RQ2__]  *Is there a home-field advantage?* It is generally believed that there is an underlying home field advantage in sport, i.e. an highest probability of winning of the home team. Let's check for this, and see whether the outcome of the game (win, draw, lose) is correlated to the playing side (home or away). For 5 different teams of Premier League, show the contingency table (_outcome_ x _side_) and perform the [*Chi-squared test*](http://learntech.uwe.ac.uk/da/Default.aspx?pageid=1440) to see whether they are correlated or not. State clearly the tested hypothesis and whether it is accepted or rejected. 
+2. [__RQ2__]  *Is there a home-field advantage?* It is generally believed that there is an underlying home field advantage in sport, i.e. an highest probability of winning of the home team. Let's check for this, and see whether the outcome of the game (win, draw, lose) is correlated to the playing side (home or away). For 5 different teams of Premier League, show the contingency table (_outcome_ x _side_). Therefore, perform an "overall" [*Chi-squared test*](http://learntech.uwe.ac.uk/da/Default.aspx?pageid=1440) in the following way: build a unique contingency table, that contains all the matches in which **only one** of the 5 teams previously selected is involved, to see whether there is home field advantage. State clearly the tested hypothesis and whether it is accepted or rejected. 
  
-3. [__RQ3__] *Which teams have, the youngest coaches?*  Rank all the teams by the age of their coach and show the 10 teams with the youngest coaches. Additionally, show the distirbutions of the ages of all coaches in Premier League, using a boxplot. (Hint: There's an attribute *birthDate*).
+3. [__RQ3__] *Which teams have the youngest coaches?*  Rank all the teams by the age of their coach and show the 10 teams with the youngest coaches. Remember that during a season a team could have more coaches, in that case pick the younger of them. Additionally, show the distirbutions of the ages of all coaches in Premier League, using a boxplot. (Hint: There's an attribute *birthDate*).
 
 4. [__RQ4__] Find the top 10 players with the highest ratio between completed passes and attempted passes. For this task, consider __all__ the different types of passes, and as specified in the [website](https://apidocs.wyscout.com/matches-wyid-events), a completed pass has tag 1801 (**accurate event**).
 
@@ -85,14 +85,41 @@ Knowing all the different positions where events happen, let us be able to creat
         
 Here's an example of heatmap where are shown all the starting positions of the goals of Arsenal during the entire season.
     
-![alt text](https://github.com/tlancian/ADM2019-TA/blob/master/HW1/arsenal_goals.png)
+![alt text](https://github.com/CriMenghini/ADM/blob/master/2019/Homework_2/arsenal_goals.png)
 
 2. Considering only the match [**Juventus - Napoli** played on the 22 April 2018](https://www.google.com/search?safe=active&sxsrf=ACYBGNRXZ3i0a1dbj20pdoInsHEUjeYU4A%3A1570814249512&ei=KbmgXb_eHsaUkgX7vrmICA&q=juventus+napoli+2018&oq=juventus+napoli+2018&gs_l=psy-ab.3..0j0i7i30j0j0i7i30l3j0j0i7i30l2j0.4513.5598..6047...0.5..0.105.770.6j2......0....1..gws-wiz.......0i71j0i20i263j0i13.FoNdEGK6ZpY&ved=0ahUKEwj_luaK25TlAhVGiqQKHXtfDoEQ4dUDCAs&uact=5#sie=m;/g/11hcz2kzzt;2;/m/03zv9;tl;fp;1;;):
     * visualize with arrows the starting point and ending point of each pass done during the match by **Jorginho** and **Miralem Pjanic**. Is there a huge difference between the map with all the passes done and the one with only accurate passes? Comment the results and point out the main differences.
     
 Here there's an example of a map with arrows. 
 
-![alt text](https://github.com/tlancian/ADM2019-TA/blob/master/HW1/arrows.png)
+![alt text](https://github.com/CriMenghini/ADM/blob/master/2019/Homework_2/arrows.png)
+
+
+
+### Theoretical Question
+
+You are given the recursive function splitSwap, which accepts an array a, an index i, and a length n.
+
+```
+function splitSwap(a, l, n):
+  if n <= 1:
+    return
+  splitSwap(a, l, n/2)
+  splitSwap(a, l+ n /2, n/2)
+  swapList(a, l, n)
+```
+The subroutine swapList is described here:
+
+```
+function swapList(a, l, n):
+  for i = 1 to n/2:
+    tmp = a[l + i]
+    a[l + i] = a[l + n/2 + i]
+    a[l + n/2 + i] = tmp
+```
+
+1. How much running time does it take to execute splitSwap(a, 0, n)? (We want a Big O analysis.)
+2. What does this algorithm do? Is it optimal? Describe the mechanism of the algorithm in details, we do not want to know only its final result.
 
 
 
