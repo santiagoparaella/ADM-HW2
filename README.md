@@ -13,4 +13,4 @@ In particular this repository contains 3 document
 * main.ipynb that contains the jupyter code file of all questions in the Homework
 * theory.ipynb that contains the answer at the theory question in a jupyter markdown file
 
-For a mistake, on RQ5 our code was written with an out html file for the scatterplot.
+For RQ5, the scatterplot visualization output is rendered as an html page because the results are dynamically loaded.
