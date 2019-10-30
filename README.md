@@ -12,3 +12,5 @@ In particular this repository contains 3 document
 * (this) README.md that explain the reporitory
 * main.ipynb that contains the jupyter code file of all questions in the Homework
 * theory.ipynb that contains the answer at the theory question in a jupyter markdown file
+
+For a mistake, on RQ5 our code was written with an out html file for the scatterplot.
